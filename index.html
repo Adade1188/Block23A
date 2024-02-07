@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>PuppyBowl</title>
+</head>
+
+<body>
+ <h1>Game Players</h1>
+ <form id="new-player-form"> 
+  <label>
+    name
+    <input type="text" name="name" />
+  </label>
+
+  <label>
+    Breed
+    <input type="text" name="Breed"/>
+  </label>
+  
+  <label>
+    PlayerID
+    <input type="text" name="PlayerID"/>
+  </label>
+  
+  <label>
+    Image
+    <input type="text" name="Image"/>
+  </label>
+
+  <label>
+    TeamName
+    <input type="text" name="team-name"/>
+  </label>
+  <button type="button" id="submitBtn">Add Player</button>
+</form>
+  
+<main>
+  <div id="playerList"></div>
+</main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
